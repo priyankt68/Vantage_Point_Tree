@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 VP Tree
 =======
 
@@ -122,3 +123,7 @@ Following is the directory structure for the Vantage Point Tree Code-base
         ├── vp_tree_const.cpp
 
 
+=======
+Vantage_Point_Tree
+==================
+>>>>>>> c59284b0188d36bd69327dd260e284b2cb76ad74
