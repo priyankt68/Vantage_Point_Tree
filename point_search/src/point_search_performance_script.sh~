@@ -1,0 +1,148 @@
+
+echo " starting for 100m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 100000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_100m.txt
+
+
+echo " starting for 200m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 200000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_200m.txt
+
+
+echo " starting for 400m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 400000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_400m.txt
+
+
+echo " starting for 800m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 800000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_800m.txt
+
+
+echo " starting for 100m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 100000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_100m.txt
+
+
+echo " starting for 200m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 200000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_200m.txt
+
+
+echo " starting for 400m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 400000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_400m.txt
+
+
+echo " starting for 800m"
+g++ -std=gnu++0x datagen.cpp -o datagen
+
+./datagen 800000000
+
+g++ -o1 vp_tree_const_saved_queries.cpp -o vp_tree_const_saved_queries
+
+./vp_tree_const_saved_queries
+
+g++ -o1 -std=gnu++0x query_datagen_point_searches.cpp -o query_datagen_point_searches
+
+./query_datagen_point_searches
+
+g++ -o1 -fopenmp point_searches.cpp -o point_searches
+
+./point_searches > vp_tree_build_for_point_search_800m.txt
+
+
+

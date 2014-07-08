@@ -1,0 +1,103 @@
+.
+├─Sequential Vantage Point Tree
+├── nearest_neighbour_search (K-NN)
+│   ├── data
+│   │   ├── build_timing.txt
+│   │   ├── data.txt
+│   │   ├── queries
+│   │   │   ├── k_10_queries.txt
+│   │   │   ├── k_1_queries.txt
+│   │   │   ├── variable_k_nearest_neighbor_search_timings.txt
+│   │   ├── query.txt
+│   │   ├── test.sh
+│   │   ├── variable_k
+│   │   │   ├── k_0_path_length.txt
+│   │   │   ├── k_16_path_length.txt
+│   │   │   ├── k_1_path_length.txt
+│   │   │   ├── k_2_path_length.txt
+│   │   │   ├── k_32_path_length.txt
+│   │   │   ├── k_4_path_length.txt
+│   │   │   ├── k_8_path_length.txt
+│   │   └── vp_tree_build.txt
+│   ├── gnuplot_scripts
+│   │   ├── histogram_path_length.gnuplot
+│   │   ├── k_nn_10_vs_t.gnuplot
+│   │   ├── k_nn_1_vs_t.gnuplot
+│   │   ├── variable_k_vs_t.gnuplot
+│   ├── images
+│   │   ├── histogram_k_16.png
+│   │   ├── histogram_k_1.png
+│   │   ├── histogram_k_2.png
+│   │   ├── histogram_k_32.png
+│   │   ├── histogram_k_4.png
+│   │   ├── histogram_k_8.png
+│   │   ├── k_nn_10_vs_t.png
+│   │   ├── k_nn_1_vs_t.png
+│   │   └── variable_k_vs_t.png
+│   └── src
+│       ├── datagen.cpp
+│       ├── knn.cpp
+│       ├── nearest_neighbour_performance_script.sh
+│       ├── queries.sh
+│       ├── query_datagen.cpp
+│       ├── variable_k_nn.cpp
+│       ├── variable_k.sh
+│       ├── vp_tree_const_saved_queries.cpp
+├── pointer_based_vp_tree
+│   ├── pointer_vp_tree_const.cpp
+│   └── vptree.h
+├── point_search
+│   ├── data
+│   │   ├── point_search_timings.txt
+│   │   ├── vp_tree_build_for_point_search_100k.txt
+│   │   ├── vp_tree_build_for_point_search_100m.txt
+│   │   ├── vp_tree_build_for_point_search_10k.txt
+│   │   ├── vp_tree_build_for_point_search_10m.txt
+│   │   ├── vp_tree_build_for_point_search_1b.txt
+│   │   ├── vp_tree_build_for_point_search_1m.txt
+│   │   ├── vp_tree_build_for_point_search_20m.txt
+│   │   ├── vp_tree_build_for_point_search_40m.txt
+│   │   ├── vp_tree_build_for_point_search_500k.txt
+│   │   ├── vp_tree_build_for_point_search_80k.txt
+│   │   └── vp_tree_build_for_point_search_80m.txt
+│   ├── datagen.cpp~
+│   ├── gnuplot_scripts
+│   │   ├── histogram_plot_pathlength_point_searches.gnuplot
+│   │   └── point_search_vs_t.gnuplot
+│   ├── images
+│   │   ├── histogram_100k.png
+│   │   ├── histogram_100m.png
+│   │   ├── histogram_10k.png
+│   │   ├── histogram_10m.png
+│   │   ├── histogram_1m.png
+│   │   ├── histogram_20m.png
+│   │   ├── histogram_40m.png
+│   │   ├── histogram_500k.png
+│   │   ├── histogram_80k.png
+│   │   ├── histogram_80m.png
+│   │   └── point_search_vs_t.png
+│   ├── src
+│   │   ├── datagen.cpp
+│   │   ├── point_searches.cpp
+│   │   ├── point_search_performance_script.sh
+│   │   ├── query_datagen_point_searches.cpp
+│   │   ├── traversal_path.sh
+│   │   └── vp_tree_const_saved_queries.cpp
+│   ├── traversal_path.sh~
+├── README.md
+├── Results_Report.odt
+└── vp_tree_construction
+    ├── data
+    │   ├── build
+    │   ├── data.txt
+    │   └── vp_tree_build_timings.txt
+    ├── gnuplot_scripts
+    │   ├── vp_tree_build.gnuplot
+    ├── images
+    │   └── vp_tree_build.png
+    └── src
+        ├── build.sh
+        ├── datagen.cpp
+        ├── vp_tree_check.cpp
+        ├── vp_tree_const.cpp
+
